@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BitterSweet Laughs</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="contact-page">
+
+
+    <header class="site-header">
+      <div class="site-logo">
+        <a href="/" class="logo-link">
+        <img class="logo-img" src="images/BSLlogo.png" alt="smiley face moon-sun logo"></a>
+        <h1 class="logo-heading">BitterSweet Laughs</h1>
+      </div>
+      <nav class="main-nav">
+        <ul class="nav-bar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="contact-container">
+    <h2>Contact Me</h2>
+    <form
+  class="contact-form"
+  action="https://api.web3forms.com/submit"
+  method="POST"
+>
+  <!-- Connects the form to Web3Forms -->
+  <input
+    type="hidden"
+    name="access_key"
+    value="93025041-e602-4a0f-a3a7-a2db582681b9"
+  >
+
+  <!-- Subject line that will appear in your email inbox -->
+  <input
+    type="hidden"
+    name="subject"
+    value="New message from BitterSweet Laughs"
+  >
+
+  <!-- Basic spam protection -->
+  <input
+    type="checkbox"
+    name="botcheck"
+    class="hidden"
+    style="display: none;"
+  >
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="reason">What brings you here?</label>
+      <select name="reason" id="reason" required>
+        <option value="" selected disabled>Please select a reason</option>
+        <option value="astrology">Astrology Sessions &lpar;Reflective 1-on-1 Guidance&rpar;</option>
+        <option value="classes">Classes &amp; Workshops</option>
+        <option value="artwork">Art &amp; Commission Inquiries</option>
+        <option value="collaboration">Creative Collaboration &lpar;Film, Writing, Art&rpar;</option>
+        <option value="other">Other</option>
+      </select>
+        <label for="message">Tell me what you’re imagining, wondering, or looking to create:</label>
+        <textarea name="message" id="message" placeholder="leave comments here" required></textarea>
+        <input type="submit" value="Submit">
+    </form>
+    <p>Prefer Email? Contact me at <a href="mailto:lisabuttinoart@gmail.com">lisabuttinoart@gmail.com</a></p>
+    </div>
+    <footer class="main-footer"><p>
+   &copy; 2026 Lisa Buttino / BitterSweet Laughs. All rights reserved.
+   </p></footer>
+  </body>
+  </html>
